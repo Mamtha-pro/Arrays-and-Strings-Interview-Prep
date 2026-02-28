@@ -2,7 +2,7 @@ package arrays;
 
 public class MoveAllZerostoEnd {
     public static void main(String[] args) {
-        int[] arr = {0,1,0, 2, 3, 4, 0, 5, 3, 2, 0, 1,0};
+        int[] arr = {0,1,0, 2, 3, 0,4, 0, 5, 3, 2, 0, 1,0};
         int nonzero[] = new int[arr.length];
         int zero[] = new int[arr.length];
         int t = nonzero[0];
